@@ -1,0 +1,16 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de testes do aplicativo BugerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Gledson Nascimento",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "cypress": "^9.6.1",
+    "faker": "^6.6.6"
+  }
+}
