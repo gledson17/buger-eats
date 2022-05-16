@@ -23,7 +23,7 @@ describe('Cadastro de entregador - Validação de cadastro', () => {
         cadastroPage.accessForm()
         cadastroPage.fillForm(deliver)
         cadastroPage.submit()
-        
+
         const expectedMessage = 'Oops! CPF inválido'
         cadastroPage.alertMessageShouldBe(expectedMessage)
 
@@ -36,7 +36,7 @@ describe('Cadastro de entregador - Validação de cadastro', () => {
         cadastroPage.accessForm()
         cadastroPage.fillForm(deliver)
         cadastroPage.submit()
-        
+
         const expectedMessage = 'Oops! CPF inválido'
         cadastroPage.alertMessageShouldBe(expectedMessage)
 

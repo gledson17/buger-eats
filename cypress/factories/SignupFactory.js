@@ -1,9 +1,9 @@
-var faker =  require('faker')
+var faker = require('faker')
 var cpf = require('gerador-validador-cpf')
 
 export default {
 
-    deliver: function() {
+    deliver: function () {
 
         var firstName = faker.name.firstName()
         var lastName = faker.name.lastName()
